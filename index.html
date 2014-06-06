@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Javascript-angular by amalwankar</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Javascript-angular</h1>
+        <p class="header">Javascript-Angular</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/amalwankar/Javascript-Angular/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/amalwankar/Javascript-Angular/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/amalwankar/Javascript-Angular">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/amalwankar">amalwankar</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="devfactools" class="anchor" href="#devfactools"><span class="octicon octicon-link"></span></a>devfactools</h1>
+
+<h2>
+<a name="overview" class="anchor" href="#overview"><span class="octicon octicon-link"></span></a>Overview</h2>
+
+<p>This project consists of all the <a href="http://angularjs.org/">AngularJS</a> custom directives, services and vendor libraries.</p>
+
+<h2>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
+
+<h3>
+<a name="development-dependencies" class="anchor" href="#development-dependencies"><span class="octicon octicon-link"></span></a>Development Dependencies</h3>
+
+<p>The following dependencies are needed to run the project.</p>
+
+<p><a href="http://nodejs.org">Node</a> version v0.10.28, 
+<a href="http://bower.io">bower</a> version 1.3.4</p>
+
+<h3>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h3>
+
+<p><a href="http://angularjs.org/">AngularJS</a> version 1.2.0,
+<a href="http://browserify.org">browserify</a> version 4.1.5, 
+<a href="https://github.com/thlorenz/browserify-shim">browserify-shim</a> version 3.5.0
+<a href="https://github.com/szimek/signature_pad">signature_pad</a> version v1.3.2</p>
+
+<h3>
+<a name="install-dependencies" class="anchor" href="#install-dependencies"><span class="octicon octicon-link"></span></a>Install dependencies</h3>
+
+<p><code>npm</code> has been preconfigures to automatically run <code>bower</code> to install all the dependencies and development-dependencies we can simply do:</p>
+
+<pre><code>npm install
+</code></pre>
+
+<h3>
+<a name="create-a-build" class="anchor" href="#create-a-build"><span class="octicon octicon-link"></span></a>Create a build</h3>
+
+<p>We need to create a browserify bundled code in order to run the application. This can be done by simply running the following code in the command line:</p>
+
+<pre><code>browserify . -d -o bundle.js
+</code></pre>
+
+<p>Once the <code>bundle.js</code> file is created you can include it in the html file.</p>
+
+<pre><code>&lt;script src="bundle.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>You also need to include the css stylesheet in your project.</p>
+
+<pre><code>&lt;link rel="stylesheet" type="text/css" href="css/devfactools.css"&gt;
+</code></pre>
+
+<h3>
+<a name="directives" class="anchor" href="#directives"><span class="octicon octicon-link"></span></a>Directives</h3>
+
+<p>This projects consists of the following directives:</p>
+
+<ol>
+<li>
+<strong>dropdown</strong> - Used for settings panel dropdown in an app.</li>
+<li>
+<strong>signaturePad</strong>  - Used to capture signature on a touch based device and store it in the model as a base64 encoded string.</li>
+<li>
+<strong>modal</strong> - A simple pop-over modal.</li>
+<li>
+<strong>itemList</strong> - Directive to recursively list mutli-level object hierarchy, delete a particular object from the hierarchy or add a boolean flag to exclude the object. </li>
+<li>
+<strong>moveParentOnFocus</strong> - Directive to animate scrolling an input container to the top of the parent container on focus. </li>
+<li>
+<strong>typeAhead</strong> - A simple typeahead directive that searches the model for the typed id and displays, atmost, top five items matching the criteria, if a match is found. </li>
+</ol><h3>
+<a name="demo" class="anchor" href="#demo"><span class="octicon octicon-link"></span></a>Demo</h3>
+
+<p>Please refer to the Demo.html for example of each directives mentioned above. You can also find individual demos for each of the directives. </p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
