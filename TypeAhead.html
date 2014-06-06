@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/typeahead.css">
+</head>
+
+<body>
+	
+	<script src="bundle.js"></script>
+	<script type="text/javascript" src="controller/typeAheadCntrl.js"></script>
+
+<div ng-app="App">
+    <div class="typeahead-container" ng-controller="typeAheadCntrl">
+        <h2>Enter Search term</h2>
+        <input type="text" ng-disabled="!data" required typeahead="item ? (item.id + ' - ' + item.description) : '' for item in data show 5" autocomplete="off" class="form-control" ng-model="item" placeholder="Item ID" id="item.id">
+        <br>
+        <button id="clear-button-typeahead" type="button" ng-click="clearInput()">Clear</button>
+    </div>
+</div>
+
+</body>
+</html>
+

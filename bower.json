@@ -1,0 +1,8 @@
+{
+    "name" : "dropdown_directive",
+    "version" : "0.0.1",
+    "dependencies" : {
+		"angular" : "~1.2.0",
+		"signature_pad" : "~1.3.2"
+    }
+}

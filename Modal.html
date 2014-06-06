@@ -1,0 +1,38 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+</head>
+
+<body>
+	
+	<script src="bundle.js"></script>
+	<script type="text/javascript" src="controller/modalCntrl.js"></script>
+
+    <div ng-app="App">
+        <div class="modal-demo" ng-controller="modalCntrl">
+            <h2>Modal demo</h2>
+            <button ng-click="displayModal()">Show Modal</button>
+            <div class="modal-overlay" ng-show="showModal">
+                <div>
+                    <p>
+                    Bacon ipsum dolor sit amet beef ribs chicken turkey, salami frankfurter short ribs spare ribs ham hock ham. Prosciutto beef ribs ground round, drumstick pork chop jowl fatback strip steak. Strip steak corned beef ham hock jowl pancetta. Pork shoulder kevin short loin sirloin ground round bresaola boudin tenderloin swine shankle kielbasa jerky.</p>
+
+            <p>Doner pancetta swine, ham ham hock bresaola landjaeger andouille. Ribeye porchetta hamburger pork belly biltong spare ribs. Shoulder pork belly venison, capicola sausage beef ribs tail. Shankle salami cow swine, hamburger venison leberkas pastrami chuck sausage short ribs pancetta. Ribeye strip steak meatball tri-tip swine chicken rump cow tongue ham spare ribs pancetta capicola ham hock. Sirloin pork t-bone drumstick.</p>
+
+            <p>Rump venison tail beef ribs, t-bone capicola bresaola porchetta tri-tip corned beef pork belly jerky andouille turducken. Spare ribs biltong andouille, kevin jowl cow bacon salami filet mignon. Pork loin jerky tongue chicken. Tri-tip strip steak ball tip bresaola tenderloin shankle salami drumstick, biltong ham hock frankfurter pastrami andouille beef ribs. Hamburger sausage ribeye bacon biltong t-bone spare ribs tri-tip pancetta filet mignon tail beef cow. Pork short loin ham, pastrami pork belly chicken capicola pancetta. Tail sirloin pig, ground round drumstick beef ribs meatball andouille venison biltong landjaeger.</p>
+
+            <p>Meatloaf biltong prosciutto strip steak. Boudin pancetta ball tip ribeye prosciutto fatback jerky salami pork belly doner venison. Short ribs spare ribs shoulder landjaeger pastrami, short loin rump bresaola hamburger flank filet mignon pork. Landjaeger pancetta meatloaf, biltong andouille corned beef kielbasa tri-tip turkey bacon tongue chuck pork. Kielbasa venison beef, shankle ball tip jerky landjaeger corned beef. Brisket tenderloin capicola ham short loin tongue pork belly cow doner chuck.</p>
+
+            <p>Chicken ham porchetta, hamburger meatball sirloin andouille pig beef spare ribs shank. Capicola prosciutto meatloaf, shoulder brisket beef ham hamburger swine shankle beef ribs. Kevin pork chop beef ribs, bacon meatloaf brisket tri-tip rump pork belly pork loin drumstick ball tip salami tongue. Swine jerky tongue corned beef pork belly, kevin spare ribs.</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-default btn-lg closeHelp" ng-click="dismissModal()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,66 @@
+
+
+ .modal-demo{
+    background-color: #CC6600;
+    border: 2px solid grey;
+    margin: 50px 200px 50px 50px;
+    padding: 20px;
+    box-shadow:  10px 10px 5px grey;
+    border-radius: 10px;
+    font-family: "Times New Roman";l
+ }
+
+.modal-overlay {
+  background-color: rgba(0, 140, 186, 0.95);
+  position: fixed;
+  border-radius: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1020; 
+  color: black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.modal-overlay .comment-dialog {
+  position: fixed;
+  top: 120px;
+  right: 120px;
+  left: 120px;
+  bottom: 55%;
+  z-index: 1040;
+  background-color: rgba(0, 0, 0, 0.95); 
+}
+.modal-overlay .comment-dialog textarea {
+  padding: 20px;
+  height: 100%;
+  width: 100%; 
+}
+.modal-overlay .comment-dialog .modal-footer {
+  text-align: right;
+  height: 30px; 
+}
+.modal-overlay .comment-dialog .modal-footer button {
+  display: inline-block;
+  padding: 10px 20px; 
+}
+.modal-overlay .comment-dialog .modal-footer .cancelComment {
+  float: right;
+  background-color: #212C64; 
+}
+.modal-overlay .comment-dialog .modal-footer .saveComment {
+  float: right;
+  margin-right: 20px;
+  background-color: green; 
+}
+.modal-overlay .helpContainer {
+  padding: 20px;
+  width: 100%; 
+}
+.modal-overlay .closeHelp {
+  float: right;
+  min-height: 20px;
+  width: 146px; 
+}

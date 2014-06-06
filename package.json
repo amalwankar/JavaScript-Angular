@@ -1,0 +1,29 @@
+{
+  "name": "signaturepad",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./main.js",
+  "browser": {
+    "angular": "./vendor/angular/angular.js",
+    "SignaturePad" : "./vendor/signature_pad/signature_pad.js"
+  },
+  "browserify-shim": {
+    "angular": "angular",
+    "SignaturePad" : "SignaturePad"
+  },
+  "browserify": {
+    "transform": [ "browserify-shim" ]
+  },
+  "dependencies": {
+    "browserify-shim": "^3.5.0",
+    "browserify": "^4.1.6"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install"
+  },
+  "author": "",
+  "license": "ISC"
+}

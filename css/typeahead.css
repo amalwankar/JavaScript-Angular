@@ -1,0 +1,175 @@
+
+.typeahead-container{
+    background-color:  #9B8753;
+    border: 2px solid grey;
+    margin: 50px 200px 50px 50px;
+    padding: 20px;
+    box-shadow: 10px -10px 5px grey;
+    border-radius: 10px;
+    font-family: "Times New Roman";
+    height: 400px;
+}
+
+
+.typeahead-container input {
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 4px; 
+}
+
+.typeahead-container input:focus{
+    outline: none;
+    border: 2px solid grey;
+    box-shadow: 0 0 10px rgb(15, 111, 146);
+}
+
+.typeahead {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: -1px;
+    min-width: calc(100% - 5px);
+    max-height: 400px;
+    overflow-y: auto;
+}
+.typeahead li {
+    font-size: 11pt;
+    text-align: left;
+}
+.input-prepend ~ div .typeahead {
+    margin-left: 27px;
+    margin-top: -1px;
+    min-width: calc(100% - 30px);
+}
+.dropdown-menu > li.no-highlight > a:hover, .dropdown-menu > li.no-highlight > a:focus {
+    background-color: transparent;
+    background-image: none;
+    color: black;
+}
+.search-result-title {
+    line-height: 15px;
+}
+.search-result-details {
+    font-size: 10px;
+    color: #777;
+    margin-left: 5px;
+}
+.search-result-number {
+    color: #555;
+}
+.active .search-result-details, .active .search-result-number {
+    color: white;
+}
+.dropdown-menu > li > a.no-highlight {
+    color: #999;
+}
+.dropdown-menu > li > a > .spinner {
+    line-height: 75px;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+}
+.dropdown-menu.pull-right {
+    right: 0;
+    left: auto;
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #333333;
+    white-space: nowrap;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #428bca;
+    outline: 0;
+}
+.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+    color: #999999;
+}
+.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.open > .dropdown-menu {
+    display: block;
+}
+.open > a {
+    outline: 0;
+}
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    color: #999999;
+}
+.dropdown-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 990;
+}
+.pull-right > .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+    border-top: 0 dotted;
+    border-bottom: 4px solid #000000;
+    content:"";
+}
+.dropup .dropdown-menu, .navbar-fixed-bottom .dropdown .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 1px;
+}
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+    border-top: 0 dotted;
+    border-bottom: 4px solid #000000;
+    content:"";
+}
+.dropup .dropdown-menu, .navbar-fixed-bottom .dropdown .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 1px;
+}

@@ -1,0 +1,26 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/signature-pad.css">
+</head>
+
+<body>
+	
+	<script src="bundle.js"></script>
+	<script type="text/javascript" src="controller/signaturePadCntrl.js"></script>
+
+    <div class="signature-pad-container" ng-app="App">
+        <div class="signature-pad-demo" ng-controller="signaturePadCntrl">
+            <h2>Signaturepad demo</h2>
+            <div class="signature-pad">
+                   <signaturepad id="input" ng-model="signature" required></signaturepad>
+              <div class="signature-pad-footer">
+                  <div class="description">Sign above</div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</body>
+</html>
+

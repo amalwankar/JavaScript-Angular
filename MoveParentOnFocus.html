@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/move-parent.css">
+</head>
+
+<body>
+	
+	<script src="bundle.js"></script>
+	<script type="text/javascript" src="controller/moveParentCntrl.js"></script>
+
+<div ng-app="App">
+    <div class="wrapper" ng-controller="moveParentCntrl">
+        <h2>Move Input on focus demo</h2>
+        <input move-parent-on-focus type="text" ng-model="name">
+        <button type="button" ng-click="clearInput()">Clear</button>
+        <p ng-show="name">Welcome {{name}}</p>
+    </div>
+</div>
+
+</body>
+</html>
+
