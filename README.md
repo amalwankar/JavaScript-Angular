@@ -57,7 +57,7 @@ This projects consists of the following directives:
 
 ### Demo
 
-Please refer to the (Demo)[http://amalwankar.github.io/Javascript-Angular/Demo.html] for example of each directives mentioned above. You can also find individual demos for each of the directives. 
+Please refer to the [Demo](http://amalwankar.github.io/Javascript-Angular/Demo.html) for example of each directives mentioned above. You can also find individual demos for each of the directives. 
 
 
 
